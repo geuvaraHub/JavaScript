@@ -1,5 +1,5 @@
 function calculateGrade(score)
-{	if(score !== "number" || score < 0 || score > 100)
+{	if(typeof score !== "number" || score < 0 || score > 100)
 		return ("Invalid"); 	
 
 	 if(score >=  90)
