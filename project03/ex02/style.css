@@ -1,0 +1,14 @@
+#welcome {
+font-size:30px;
+display:flex;
+color:red;
+border: 1px solid;
+}
+
+.active {
+color: pink;
+background-color : rgb(100,150,90);
+opacity: 0.5;
+}
+
+
